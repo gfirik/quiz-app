@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: rgb(236, 240, 239);
+}
+nav {
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to right, #485563, #29323c);
+    padding: 0.5rem;
+    color: #fff;
+    box-shadow: 0 10px 10px rgba($color: #333, $alpha: .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-size: 1rem;
+        margin: 1rem;
+        a {
+            color: cornsilk;
+            text-decoration: none;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+.container {
+    margin-top: 15vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 3px rgba($color: #333, $alpha: .4);
+    padding: 1rem;
+    h2 {
+        margin: 1em;
+    }
+    ul {
+        li {
+            list-style-type: none;
+            padding: 1rem;
+            width: 100%;
+            transition: 0.2s ease-in-out;
+            line-height: 1rem;
+            display: flex;
+            align-items: center;
+            &:hover {
+                background: rgba($color: #333, $alpha: .2);
+            }
+            label {
+                width: 100%;
+                padding-left: 1rem;
+            }
+        }
+    }
+    button {
+        width: 60%;
+        align-self: center;
+        font-size: 1.4rem;
+        background: linear-gradient(to right, #485563, #29323c);
+        outline: none;
+        border: none;
+        color: #fff;
+        padding: 1.3rem;
+        margin-top: 1rem;
+        &:hover {
+            background: #485563;
+        }
+        &:focus {
+            background: #29323c;
+        }
+        a {
+            color: cornsilk;
+            text-decoration: none;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+#restart {
+    display: flex;
+    justify-content: center;
+}
+.result {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}

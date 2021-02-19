@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <h1>Quiz App</h1>
+        <span>by 
+            <a target="_blank" href="https://github.com/gfirik">
+                Firdavs Gafurjonov
+            </a>
+        </span>
+    </nav>
+
+    <div class="container" id="quiz">
+        <h2 id="question">Question here...</h2>
+        <ul>
+            <li>
+                <input type="radio" name="answer" class="answer" id="a">
+                <label id="a_text" for="a">option A</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" class="answer" id="b">
+                <label id="b_text" for="b">option B</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" class="answer" id="c">
+                <label id="c_text" for="c">option C</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" class="answer" id="d">
+                <label id="d_text" for="d">option D</label>
+            </li>
+        </ul>
+        <button type="submit" id="submit">Submit</button>
+    </div>
+    <footer>
+        Check your knowledge!<br>
+        It was created just for fun!
+        Smile)
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
